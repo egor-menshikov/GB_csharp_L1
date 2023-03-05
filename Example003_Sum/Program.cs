@@ -1,6 +1,6 @@
-﻿Console.WriteLine("enter a ");
-int numberA = 6;
-Console.WriteLine("enter b ");
-int numberB = 8;
+﻿int numberA = new Random().Next(1,10); // 1 2 3 ... 9
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1,10); // 1 2 3 ... 9
+Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
