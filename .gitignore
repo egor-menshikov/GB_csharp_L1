@@ -31,8 +31,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-Lectures\L1\Examples\Example001_HelloConsole\bin
-Lectures\L1\Examples\Example001_HelloConsole\obj
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
