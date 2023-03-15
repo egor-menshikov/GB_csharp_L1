@@ -49,16 +49,43 @@ int year = Method3();
 
 // Вид 4: что-то принимает, что-то возвращает
 
+// string Method4(int count, string text)
+// {
+//     int i = 0;
+//     string result = String.Empty;
+//     while (i < count)
+//     {
+//         result += text;
+//         i++;
+//     }
+//     return result;
+// }
+
 string Method4(int count, string text)
 {
-    int i = 0;
     string result = String.Empty;
-    while (i < count)
+    for (int i = 0; i < count; i++)
     {
         result += text;
-        i++;
     }
     return result;
 }
 string res = Method4(6, "hello ");
-Console.WriteLine(res);
+// Console.WriteLine(res);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Цикл в цикле - таблица умножения
+
+void table()
+{
+    for (int i = 2; i <= 10; i++)
+    {
+        for (int j = 2; j <= 10; j++)
+        {
+            Console.WriteLine($"{i} * {j} = {i * j}");
+        }
+        Console.WriteLine();
+    }
+}
+table();
